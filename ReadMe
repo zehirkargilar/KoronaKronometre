@@ -43,5 +43,7 @@ Known Issues
    nothing else, because it is a very easy language to script, some people have unfortunately abused this power
    and anything written in AHK is sometimes labeled by less complex scanners as malware. 
    For a detailed explanation of why autoit/AHK can be misidentified, visit https://www.autohotkey.com/docs/FAQ.htm#Virus
-   
-   
+
+5) If you're running it under WINE on linux/Mac you are going to have a hard time making the window not force itself to
+   the top, this is just a translation issue I will likely not be able to change. Furthermore, what healthcare provider
+   do you work for that lets you use Linux/Mac and are they hiring?
