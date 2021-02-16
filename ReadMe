@@ -1,6 +1,43 @@
+The!
+  _   _
+ | |/ /___  _ __ ___  _ __   __ _ ___________________________________ 
+ | ' // _ \| '__/ _ \| '_ \ / _` |___________________________________|
+ | . | (_) | | | (_) | | | | (_| |___________________________________|
+ |_|\_\___/|_|_ \___/|_| |_|\__,_|___________________________________|
+  ___________| |/ /_ __ ___  _ __   ___  _ __ ___   ___| |_ _ __ ___  
+ |___________| ' /| '__/ _ \| '_ \ / _ \| '_ ` _ \ / _ | __| '__/ _ \ 
+ |___________| . \| | | (_) | | | | (_) | | | | | |  __| |_| | |  __/ 
+ |___________|_|\_|_|  \___/|_| |_|\___/|_| |_| |_|\___|\__|_|  \___| 
+
 An unfinished project that will likely be un-necessary once more durable vaccines get approved. 
 
 However if it helps you, extract the archive and run the BANTA.exe file to access the main menu,
 or run individual timers if you wish to skip that entirely.
 
-Message me with issues, suggestions or src requests.
+Message me with issues, suggestions or src requests (if you want to see some really sloppy and 
+embarassing first time script that is).
+
+Known Issues
+=====================================
+1) Depending on your machine/graphics sometimes the timer window doesnt go invisible and will 
+   appear to blink in a staggered manner, this usually smooths out after a minute or two of 
+   running, if it bothers you, there is always the option to hide the timer overlay or not run it
+   at all and just print the corresponding time sheet.
+
+2) Time sheets do not print properly on Windows 7 and lower, they will print, but you might have
+   to add some line breaks manually. As of current testing it will always print evenly on 8 and above.
+   
+3) When a timer turns on and off, the timer always starts at the top of the minute. Due to the nature 
+   of the way the clock is written it will only ever be a maximum of 1 minute off. This is because the 
+   script reads how many minutes remain rather than seconds or milliseconds, for all intents and purposes,
+   this quantity seemed negligible, since most reports seem to show timing for actual thaw of vials to be
+   a give or take anywhere between 15 minutes and an hour, it might eventually be corrected, but for 
+   now, time range is well within reason.
+
+4) Due to the language it was written in, sometimes it is detected as viral/malware. This app is not. It was
+   written in a common scripting language, it does what you tell it to, and I've told it to make a timer and 
+   nothing else, because it is a very easy language to script, some people have unfortunately abused this power
+   and anything written in AHK is sometimes labeled by less complex scanners as malware. 
+   For a detailed explanation of why autoit/AHK can be misidentified, visit https://www.autohotkey.com/docs/FAQ.htm#Virus
+   
+   
