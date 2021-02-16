@@ -10,8 +10,9 @@
 
 An unfinished project that will likely be un-necessary once more durable vaccines get approved. 
 
-However if it helps you, extract the archive and run the BANTA.exe file to access the main menu,
-or run individual timers if you wish to skip that entirely.
+However if it helps you, extract the archive and run the KoronaKronometre.exe file to access the main menu,
+or run individual timers if you wish to skip that entirely. All Timers run independently from the main
+interface in case you want to close the Main, run a single timer overnight, cut down on tray icons etc.
 
 Before using, replace the file CO19CON.doc located in the folder KRNDAQ\TMPLT\ with your local 
 version of an auth form saved by the same name in a .doc (not docx libdoc oodoc etc) or else 
